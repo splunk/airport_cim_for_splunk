@@ -25,6 +25,7 @@ So in the case of making your timestamps CIM compliant, you may need to apply _s
 Lets say, in your data, your SOBT is called _sch_ofb_ and is presented like this: _31/12/2020T09:15:00_
 
 You'd need to create a calculated field using _strptime_ and call it _SOBT_. See image:
+[Image](./images/calc_field.png)
 
 
 
