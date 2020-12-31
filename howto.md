@@ -6,6 +6,7 @@ The Splunk4Airports CIM has been compiled using multiple data sources in order t
 
 The first step is to identify the various values for the fields listed in the CIM. 
 For example; in the Airfield > Aircraft dataset You'll see the following:
+
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
 |Airfield|flightNumber|int(4)|The numerical flight number of the aircraft|1234|
