@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to Splunk 4 Airports Common Information Model
 
-You can use the [editor on GitHub](https://github.com/ktugwell/Splunk4AirportsCIM/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Splunk means Data to Everything. When Airports use Splunk for traditional ITOps or Security use cases. They are unlocking how valuable this solution is for other areas of their business, like monitoring Airfield and Baggage operations. The challenge is, domain knowledge in these fields are required to get there. Without this domain knowledge it's challenging to build accurate reporting for operational use cases. This Common Information Model, and associated Splunk4Airports App, is aimed at helping you, the airport employee, use Splunk to monitor a variety of key Airport KPIs
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What is a CIM?
 
-### Markdown
+A Common Information Model is a collection of fields that are there to guide you in a standard of naming. The benefits of this is that it becomes much easier to create searches, reports, alerts and dashboards based on this nameset. Imagine working with Splunk in your business for multiple years, and you've built everything from scratch yourself. You recruit a new member to the team and they need to learn how to use Splunk. A Common Information Model, accompanied by a good governance structure really accelerates the new team members adoption to the Splunk Platform.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### So how does this work?
 
-# Header 1
-## Header 2
-### Header 3
+The CIM is structured in a way that separates out airport function into their own, standalone datasets. An example would be that arriving and departing aircraft are similar datasets, so belong to the "Airfield". Whereas processing passengers through security is not directly related, so those fields will belong to a dataset called "Security"
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ktugwell/Splunk4AirportsCIM/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
