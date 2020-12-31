@@ -1,5 +1,7 @@
 ### Aircraft CIM Placeholder
 
+The fields within this section of the CIM are all related to the specific aircraft of the flight leg. Use this in conjuntion with the [Departures](./Departures.md) and [Arrivals](./Arrivals.md) sections of the CIM
+
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
 | Airfield      | flightUid   | String    |A unique identifier for the flight leg | 6300189 |
