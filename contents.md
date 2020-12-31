@@ -1,7 +1,7 @@
-### Table of contents
+# Table of contents
 
 
-# The CIM
+### The CIM
 - Airfield
   - [Aircraft](./Aircraft.md)
   - [Departures](./Departures.md)
