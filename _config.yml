@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate
-logo: images/s4a_white.jpg
+title: Splunk4Airports Common Information Model
+description: A guide on how to implement Splunk for operational use cases within airports
+show_downloads: false
