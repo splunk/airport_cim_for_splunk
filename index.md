@@ -11,3 +11,4 @@ A Common Information Model is a collection of fields that are there to guide you
 
 The CIM is structured in a way that separates out airport function into their own, standalone datasets. An example would be that arriving and departing aircraft are similar datasets, so belong to the "Airfield". Whereas processing passengers through security is not directly related, so those fields will belong to a dataset called "Security"
 
+[Take me to the CIM](./Aircraft.md).
