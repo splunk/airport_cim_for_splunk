@@ -1,5 +1,8 @@
 # Table of contents
 
+### Guides
+- [How to use the CIM](./howto.md)
+- [Field Aliasing](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Addaliasestofields)
 
 ### The CIM
 - Airfield
@@ -17,3 +20,5 @@
 - [ACRIS Schema](https://aci.aero/about-aci/priorities/airport-it/acris/)
 - [IATA AIDX](https://www.iata.org/en/publications/info-data-exchange/)
 - [PADIS Codesets](https://www.iata.org/en/publications/store/passenger-data-exchange/)
+
+[Home](./)
