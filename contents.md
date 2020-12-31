@@ -2,11 +2,14 @@
 
 
 # The CIM
-- [Airfield](./Airfield.md)
+- Airfield
+  - [Aircraft](./Aircraft.md)
   - [Departures](./Departures.md)
   - [Arrivals](./Arrivals.md)
-- [Security](./Security.md)
-- [Baggage](./Baggage.md)
+- Security
+  - [Passengers](./Passengers.md)
+- Baggage
+  - [Hold](./Hold.md)
 
 
 ### This CIM was compiled from various data-sources, listed below (Links take you to external websites):
