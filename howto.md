@@ -52,6 +52,9 @@ stats latest(x), latest(y) by flightUid
 ```
 This ensures you retrieve the latest value for fields X and Y, but in effect, it's also deduping by the _flightUid_.
 
+## Lookups
+
+Various lookups are included in the Splunk4Airports App. The lookups are there to help enrich your data. For example, in your data you'll no doubt have an origin and destination airport. The _airports.csv_ lookup includes all international airports, so you can use the three letter IATA code for the airport, and it will output valuable information, including latitude and longitude. Thus allowing you to create visually stunning geo-maps. Lookups have been used from open source repositories. For a list of data sources, see the [about](./About.md) page.
 
 [Contents](./contents.md)<br />
 [Home](./)
