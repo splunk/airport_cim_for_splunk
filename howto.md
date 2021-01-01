@@ -1,6 +1,6 @@
 # How to use the CIM
 
-The Splunk4Airports CIM has been compiled using multiple data sources in order to gain a uniformed approach to Airport data. You can see the data sources used in the [Readme](./README.md)
+The Splunk4Airports CIM has been compiled using multiple data sources in order to gain a uniformed approach to Airport data. You can see the data sources used in the [About](./About.md) page.
 
 ### How does it work
 
