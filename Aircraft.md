@@ -4,6 +4,7 @@ The fields within this section of the CIM are all related to the specific aircra
 
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
+| Airfield      | lastUpdated | int(10)   | The time the record was last updated. This should be used as your _time field when indexing your AODB events | 0516469200 |
 | Airfield      | flightUid   | String    |A unique identifier for the flight leg | 6300189 |
 |Airfield|flightNumber|int(4)|The numerical flight number of the aircraft|1234|
 |Airfield|airline|String|The IATA code for the operating airline|EZY, DY, AA|
