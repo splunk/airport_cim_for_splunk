@@ -15,6 +15,7 @@ It has been compiled from multiple data sources. With field naming closely align
 - [ACRIS Schema](https://aci.aero/about-aci/priorities/airport-it/acris/)
 - [IATA AIDX](https://www.iata.org/en/publications/info-data-exchange/)
 - [PADIS Codesets](https://www.iata.org/en/publications/store/passenger-data-exchange/)
+- [ourairports.com](https://ourairports.com/data/)
 
 ### Special thanks to:
 - London Gatwick Airport
@@ -22,6 +23,7 @@ It has been compiled from multiple data sources. With field naming closely align
 - Dubai International Airport
 - Airports Council International (ACI)
 - IATA
+- ourairports
 
 
 [Contents](./contents.md)<br />
