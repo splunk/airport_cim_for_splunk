@@ -50,7 +50,7 @@ You will see, the Splunk4Airports app expects _lastUpdated_ to be used as _time,
 ```
 stats latest(x), latest(y) by flightUid
 ```
-This ensures you retrieve the latest value for fields X and Y, but in effect, it's also deduping by the _flighUid_.
+This ensures you retrieve the latest value for fields X and Y, but in effect, it's also deduping by the _flightUid_.
 
 
 [Contents](./contents.md)<br />
