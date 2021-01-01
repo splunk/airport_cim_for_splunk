@@ -15,6 +15,8 @@ For example; in the Airfield > Aircraft dataset You'll see the following:
 
 These are the first three fields I would start with. So if you connect directly to your AODB through [DBConnect](https://splunkbase.splunk.com/app/2686/), you simply need to find these fields in your dataset and alias them to the CIM field name above. Making sure you conform to the data type. For the most part, data types are free form strings. But all timestamps, unless stated otherwise are in epoch.
 
+All field names are camelCase - Exluding acronyms, which are all capitals.
+
 ### Operational time stamps
 
 Airport data contains a huge amount of operational timestamps. All the way from Scheduled Off Block Time(SOBT) to Actual Take Off Time(ATOT). 
