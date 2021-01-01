@@ -17,6 +17,8 @@ These are the first three fields I would start with. So if you connect directly 
 
 All field names are camelCase - Exluding acronyms, which are all capitals.
 
+## Time
+
 ### Operational time stamps
 
 Airport data contains a huge amount of operational timestamps. All the way from Scheduled Off Block Time(SOBT) to Actual Take Off Time(ATOT). 
@@ -29,6 +31,26 @@ Lets say, in your data, your SOBT is called _sch_ofb_ and is presented like this
 
 You'd need to create a calculated field using _strptime_ and call it _SOBT_. See image:
 ![Calculated Field](./images/calc_field.png)
+
+### Timezones
+
+Ensure your data is in the timezone that you expect it to be in. Many European Airports use Zulu time as a standard in their Airport Operational Database(AODB). If this is the case, ensure you're aware of what timezones you are using so you can adjust your Splunk settings accordingly. Inaccurate timezones can lead to unexpected search results.
+
+### Which time should I use for _time?
+
+This is up to you, I have seen some airports use _SOBT_, but the most success I have seen is where _lastUpdated_ is used as _time.
+
+If _lastUpdated_ is used as the _time field. It's important to add an _SOBT_ filter to your searches, to ensure you're only searching flights where the _SOBT_ falls within the time picker. The best way I have found to do this is by adding _addinfo_ and using _where_ like in this example:
+```
+index="flights"
+| addinfo 
+| where (SOBT>info_min_time AND SOBT<info_max_time)
+```
+You will see, the Splunk4Airports app expects _lastUpdated_ to be used as _time, and uses syntax like this:
+```
+stats latest(x), latest(y) by flightUid
+```
+This ensures you retrieve the latest value for fields X and Y, but in effect, it's also deduping by the _flighUid_.
 
 
 [Contents](./contents.md)<br />
