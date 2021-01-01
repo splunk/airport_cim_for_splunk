@@ -1,6 +1,6 @@
 ## Welcome to Splunk 4 Airports Common Information Model
 
-![S4A](./images/s4a_white.jpg)
+![S4A](./images/s4a_transparent.png)
 
 Splunk means Data to Everything. When Airports use Splunk for traditional ITOps or Security use cases. They are unlocking how valuable this solution is for other areas of their business, like monitoring Airfield and Baggage operations. The challenge is, domain knowledge in these fields are required to get there. Without this domain knowledge it's challenging to build accurate reporting for operational use cases. This Common Information Model, and associated Splunk4Airports App, is aimed at helping you, the airport employee, use Splunk to monitor a variety of key Airport KPIs
 
