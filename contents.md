@@ -12,7 +12,7 @@
   - [Arrivals](./Arrivals.md)
 - Security
   - [Passengers](./Passengers.md)
-  - [Processing](./Passengers.md#Processing)
+  - [Processing](./Passengers.md#processing)
 - Baggage
   - [Hold](./Hold.md)
 
