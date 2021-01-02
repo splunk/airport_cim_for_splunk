@@ -11,11 +11,14 @@ It has been compiled from multiple data sources. With field naming closely align
 
 
 ### This CIM was compiled from various data-sources, listed below (Links take you to external websites):
-- [Euro Control CDM Manual 2017](https://www.eurocontrol.int/sites/default/files/publication/files/airport-cdm-manual-2017.PDF)
-- [ACRIS Schema](https://aci.aero/about-aci/priorities/airport-it/acris/)
-- [IATA AIDX](https://www.iata.org/en/publications/info-data-exchange/)
-- [PADIS Codesets](https://www.iata.org/en/publications/store/passenger-data-exchange/)
-- [ourairports.com](https://ourairports.com/data/)
+- Open Sources
+  - [Euro Control CDM Manual 2017](https://www.eurocontrol.int/sites/default/files/publication/files/airport-cdm-manual-2017.PDF)
+  - [ACRIS Schema](https://aci.aero/about-aci/priorities/airport-it/acris/)
+  - [IATA AIDX](https://www.iata.org/en/publications/info-data-exchange/)
+  - [PADIS Codesets](https://www.iata.org/en/publications/store/passenger-data-exchange/)
+  - [ourairports.com](https://ourairports.com/data/)
+- Paid Resources
+  - [IATA Passenger Services Conference Resolutions Manual](https://www.iata.org/en/publications/store/passenger-standards-conference-manual/)
 
 ### Special thanks to:
 - London Gatwick Airport
