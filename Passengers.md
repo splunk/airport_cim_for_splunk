@@ -18,13 +18,15 @@ Fields in the CIM are compiled mainly from the ACRIS and IATA standards. A-CDM d
 | Security | dateOfIssue | String | The date the boarding pass was issued. %d%b%y | 01JAN21 |
 
 
-# <a id="Processing">Processing</a>
+# <a id="Processing"></a>Processing (Beta)
 
 This section mainly relates to X-Ray Machine and Walk-Through Metal-Detector(WTMD) data:
 
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
-| Security      | Placeholder | String    | Placeholder | Placeholder |
+| Security      | WTMDID | int   | The unique ID of the WTMD | 000000 |
+| Security | passengerDirection | int(1) | The direction the passenger walks through the WTMD. 1 = Forwards, 0 = Backwards | 0, 1 |
+| Security | zoneAlarm | int(12) | A digital representation of the alarming zones for the WTMD. a 00000000000 would be no alarm, a 111111111111 would be every zone alarmed. 3 digits per 4 zones in the following order: Head, Shoulders to Waist, Waist to Knees, Knees to Feet. 000000111000 would typically be an alarm on a large, metallic belt. | 000000000111 (Shoes alarmed) |
 
 
 [Contents](./contents.md)<br />
