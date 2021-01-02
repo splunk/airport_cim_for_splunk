@@ -18,6 +18,13 @@ Fields in the CIM are compiled mainly from the ACRIS and IATA standards. A-CDM d
 | Security | dateOfIssue | String | The date the boarding pass was issued. %d%b%y | 01JAN21 |
 
 
+# Processing
+
+This section mainly relates to X-Ray Machine and Walk-Through Metal-Detector(WTMD) data:
+
+| Dataset Name  | Field Name  | Data Type | Description | Examples |
+|:--------------|:------------|:----------|:------------|:---------|
+| Security      | Placeholder | String    | Placeholder | Placeholder |
 
 
 [Contents](./contents.md)<br />
