@@ -13,7 +13,7 @@ Fields in the CIM are compiled mainly from the ACRIS and IATA standards. A-CDM d
 | Security | seat | String | The seat the passenger will occupy on the flight | 17B |
 | Security | passengerGate | String | The public gate the aircraft is departing from | 10A |
 | Security | boardTime | int(4) | 4 digit 24hr time format scheduled boarding time of the flight | 0900 |
-| Security | BPSOBT | String | The scheduled off block time as printed on the boarding pass. The IATA standards does *not* include the year, so it's better to link the flight from the Airfield dataset to this record if you wish to do year-on-year analysis. | 01JAN0900 |
+| Security | BPSOBT | String | The scheduled off block time as printed on the boarding pass. The IATA standards does *not* include the year, so it's better to link the flight from the Airfield dataset to this record if you wish to do year-on-year analysis. %d%b%H%M | 01JAN0900 |
 | Security | class | int(1) | The class of travel - refer to PADIS Codeset 9873 | 1, 2, 3 |
 | Security | dateOfIssue | String | The date the boarding pass was issued. %d%b%y | 01JAN21 |
 
