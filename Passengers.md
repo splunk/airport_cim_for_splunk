@@ -6,7 +6,7 @@ Fields in the CIM are compiled mainly from the ACRIS and IATA standards. A-CDM d
 |:--------------|:------------|:----------|:------------|:---------|
 | Security      | passengerName | String(<=20)  | Passenger name - Following IATA Passenger Services Resolution Manual format | TUGWELL/KL MR |
 | Security | from | String | The departing airport and/or country | Gatwick, London |
-| Security | to | String | The arriving airport and/ord country | Amsterdam, Schiphol |
+| Security | to | String | The arriving airport and/or country | Amsterdam, Schiphol |
 | Security | airline | String | The IATA code of the airline, sometimes called "Carrier" | EZY |
 | Security | flightNumber | int(4) | The flight number | 1234 |
 | Security | FQFC | String | The Fully Qualified Flight Code, a concatenation between airline and flightNumber | EZY1234 |
