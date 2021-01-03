@@ -12,6 +12,8 @@ The fields relating to departing aircraft
 |Airfield|COBT|int(10)|Calculated Off Block Time - Epoch|0516469200|
 |Airfield|EGTO|int(10)|Estimated Gate Open Time - Epoch|0516469200|
 |Airfield|AGTO|int(10)|Actual Gate Open Time - Epoch|0516469200|
+|Airfield|EBST|int(10)|Estimated Boarding Start Time - Epoch|0516469200|
+|Airfield|ABST|int(10)|Actual Boarding Start Time - Epoch|0516469200|
 |Airfield|EGCL|int(10)|Estimated Gate Closed Time - Epoch|0516469200|
 |Airfield|AGCL|int(10)|Actual Gate Closed Time - Epoch|0516469200|
 |Airfield|TSAT|int(10)|Target Startup Approval Time - Epoch|0516469200|
