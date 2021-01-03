@@ -1,6 +1,6 @@
 ### Aircraft CIM Placeholder
 
-The fields within this section of the CIM are all related to the specific aircraft of the flight leg. Use this in conjuntion with the [Departures](./Departures.md) and [Arrivals](./Arrivals.md) sections of the CIM
+The fields within this section of the CIM are all related to the specific aircraft of the flight leg. Use this in conjunction with the [Departures](./Departures.md) and [Arrivals](./Arrivals.md) sections of the CIM
 
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
