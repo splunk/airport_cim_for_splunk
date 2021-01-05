@@ -10,7 +10,7 @@ The fields within this section of the CIM are all related to the specific aircra
 |Airfield|serviceType|String(1)|The operational status of the flight. Refer to [serviceTypes](https://github.com/ktugwell/Splunk4Airports/blob/main/lookups/serviceTypes.csv) lookup. | J (Scheduled), C (Charter) |
 |Airfield|airline|String|The IATA code for the operating airline|EZY, DY, AA|
 |Airfield|FQFC|String|Fully Qualified Flight Code|EZY1234|
-|Airfield|arrivalOrDeparture|String|Is the aircraft departing or arriving|Departure, Arrival|
+|Airfield|departureOrArrival|String(1)|Is the aircraft departing or arriving|D, A|
 |Airfield|aircraftParkingPosition|String|Gate or hard stand where the aircraft is located|A10|
 |Airfield|passengerGate|String|The public gate which the passengers will use to board or disembark.|A10|
 |Airfield|remoteOperationalGate|String|An additional location used to transfer passengers to or from a remote parking position.|A10|
