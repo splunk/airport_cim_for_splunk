@@ -21,7 +21,7 @@ All field names are camelCase - Exluding acronyms, which are all capitals.
 
 In some instances, your data may not give a unique identifier to flights. The flightUID is important because it allows you to run analysis over multiple days where the same FQFC exists. For example, if you search for On-Time Departure information across multiple days using the FQFC, you'll have a hard time differentiating the same flight on different days. If you don't have a flightUID, you can create one using an _eval_
 ```
-| eval flightUid=sha1(FQFC. "" .SOBT)
+| eval flightUID=sha1(FQFC. "" .SOBT)
 ```
 
 ## Time
