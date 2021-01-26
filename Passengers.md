@@ -26,7 +26,7 @@ This section mainly relates to X-Ray Machine and Walk-Through Metal-Detector(WTM
 |:--------------|:------------|:----------|:------------|:---------|
 | Security      | WTMDID | int   | The unique ID of the WTMD | 000000 |
 | Security | passengerDirection | int(1) | The direction the passenger walks through the WTMD. 1 = Forwards, 0 = Backwards | 0, 1 |
-| Security | zoneAlarm | int(12) | A digital representation of the alarming zones for the WTMD. a 00000000000 would be no alarm, a 111111111111 would be every zone alarmed. 3 digits per 4 zones in the following order: Head, Shoulders to Waist, Waist to Knees, Knees to Feet. 000000111000 would typically be an alarm on a large, metallic belt. | 000000000111 (Shoes alarmed) |
+| Security | zoneAlarm | int(20) | A digital representation of the alarming zones for the WTMD. a 0000000000000000000 would be no alarm, a 11111111111111111111 would be every zone alarmed. 5 digits per 4 zones in the following order: Head, Shoulders to Waist, Waist to Knees, Knees to Feet. 00000000001111100000 would typically be an alarm on a large, metallic belt. | 00000000000000001111 (Shoes alarmed) |
 
 
 [Contents](./contents.md)<br />
