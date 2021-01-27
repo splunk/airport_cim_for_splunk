@@ -12,6 +12,7 @@ There is no know universal schema for Hold Baggage, with vendors creating their 
 |Airfield|FQFC|String|Fully Qualified Flight Code|EZY1234|
 |Baggage|messageType|String|If applicable - the type of message being recorded. | BSM, BPM, BUM |
 |Baggage|messageAction|String|Is the message new, and update, or a deletion| UPT, NEW, DEL |
+|Baggage|level|int|The level in which the bag has been seen. Most airports operate a 5 level system. Some more modern solutions only have 3 levels. Refers to the security level in which the bag was cleared for departure. 1 = Automatic Clearing by Computer Algorithm. 5 = Manual search to be performed by control authorities. | 1,2,3,4,5|
 
 
 
