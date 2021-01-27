@@ -63,6 +63,22 @@ This ensures you retrieve the latest value for fields X and Y, but in effect, it
 
 Various lookups are included in the Splunk4Airports App. The lookups are there to help enrich your data. For example, in your data you'll no doubt have an origin and destination airport. The _airports.csv_ lookup includes all international airports, so you can use the three letter IATA code for the airport, and it will output valuable information, including latitude and longitude. Thus allowing you to create visually stunning geo-maps. Lookups have been used from open source repositories. For a list of data sources, see the [about](./About.md) page. Due to its size, the Splunk4Airports app has a search included that inputs the airports.csv file into the KV store, allowing for faster retrieval.
 
+## Baggage
+
+As there is no know universal schema for overall baggage processing (The are multiple, smaller schemas for different parts of the baggage journey). The CIM was created with the most commonly used fields between them.
+
+Here's an acronym buster for the types of data you may see in your Airport:
+
+| Acronym  | Meaning  |
+|:--------------|:------------|
+| BTM | Baggage Transfer Message. Usually sent from the inbound carrier to the outbound carrier to inform them about the bags that will be transferred. |
+| BSM | Baggage Source Message. These messages are generated for every single back that is checked in at the airport. |
+| BPM | Bagagge Processed Message. BPMs are send locally in the airport whenever a bag has reached a different stage of processing. i.e The bag has cleared security screening, or it's been loaded onto a ULD |
+| BUM | Baggage Unload Message. This message is an instruction to the handler to unload a bag from an aircraft. Typically if the passenger did not show up to the gate. |
+| BNS | Baggage Not Seen. The passenger is present for the flight, but the bag is not. The bag has missed the connection. Sometimes referred to as an SSB, or Short-Shipped Bag |
+
+The most valuable of these messages are BSMs and BPMs as they will allow you to intricately measure the bag volumes and journeys.
+
 [Contents](./contents.md)<br />
 [Home](./)
 
