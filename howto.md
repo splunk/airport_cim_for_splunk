@@ -79,6 +79,10 @@ Here's an acronym buster for the types of data you may see in your Airport:
 
 The most valuable of these messages are BSMs and BPMs as they will allow you to intricately measure the bag volumes and journeys.
 
+Baggage messages can come in a variety of formats and accessed from multiple systems. One example of a messaging is IATA Type B. Refer to the IATA Passenger Services Resolution Manual.
+
+_A note on Type B Messaging: It's usually better to gain the BSM type information for another system, rather than directly from the source. This is because these messages contain no timestamps in their schema, whereas, it's likely the intermediate system will record a timestamp_
+
 [Contents](./contents.md)<br />
 [Home](./)
 
