@@ -9,6 +9,10 @@ There is no know universal schema for Hold Baggage, with vendors creating their 
 | Baggage | flightUID | String | The unique identifier for the flight. Allow you to connect Baggage and Airfield Datasets | 6300189 | 
 | Baggage | ULDID | String | Unit Load Device. Some larger aircraft only accept bags that have been first loaded into a ULD | ABC12345678 |
 |Baggage|SOBT|int(10)|Scheduled Off Block Time - Epoch|0516469200|
+|Airfield|FQFC|String|Fully Qualified Flight Code|EZY1234|
+|Baggage|messageType|String|If applicable - the type of message being recorded. | BSM, BPM, BUM |
+|Baggage|messageAction|String|Is the message new, and update, or a deletion| UPT, NEW, DEL |
+
 
 
 
