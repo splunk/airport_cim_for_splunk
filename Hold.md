@@ -1,6 +1,6 @@
 # Hold Baggage CIM
 
-There is no know universal schema for Hold Baggage, with vendors creating their own data structures. This part of the CIM has been compiled from the most commonly seen fields. For more information about how the baggage CIM was created, see the Baggage section on the [About](./About.md) page.
+There is no know universal schema for Hold Baggage, with vendors creating their own data structures. This part of the CIM has been compiled from the most commonly seen fields. For more information about how the baggage CIM was created, see the Baggage section on the [How To](./howto.md) page.
 
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
