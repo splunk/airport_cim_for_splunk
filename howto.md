@@ -83,6 +83,8 @@ Baggage messages can come in a variety of formats and accessed from multiple sys
 
 _A note on Type B Messaging: It's usually better to gain the BSM type information for another system, rather than directly from the source. This is because these messages contain no timestamps in their schema, whereas, it's likely the intermediate system will record a timestamp_
 
+You'll likely have lots of sources for baggage data, and 2 of the key generic ones are Baggage Handling System (BHS) and Baggage Reconciliation System (BRS). These mainly differ in the following way; The BHS is usually responsible for the automatic movement of baggage from point A to B through multiple levels and security screening points. The BRS is generally wherever bags are manually sorted and scanned, like at the end of a baggage chute or when being loaded into an Aircraft or ULD. The Splunk App for Airports assumes you have BHS type data.
+
 [Contents](./contents.md)<br />
 [Home](./)
 
