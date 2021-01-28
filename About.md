@@ -17,6 +17,7 @@ It has been compiled from multiple data sources. With field naming closely align
   - [IATA AIDX](https://www.iata.org/en/publications/info-data-exchange/)
   - [PADIS Codesets](https://www.iata.org/en/publications/store/passenger-data-exchange/)
   - [ourairports.com](https://ourairports.com/data/)
+  - [Avinor Airport Data Dictionary (ADD)](https://xwiki.avinor.no/display/ADD/Airport+Data+Dictionary)
 - Paid Resources
   - [IATA Passenger Services Conference Resolutions Manual](https://www.iata.org/en/publications/store/passenger-standards-conference-manual/)
 
@@ -24,6 +25,7 @@ It has been compiled from multiple data sources. With field naming closely align
 - London Gatwick Airport
 - Amsterdam Schiphol Airport
 - Dubai International Airport
+- Avinor Norway
 - Airports Council International (ACI)
 - IATA
 - ourairports
