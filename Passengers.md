@@ -20,7 +20,8 @@ Fields in the CIM are compiled mainly from the ACRIS and IATA standards. A-CDM d
 
 # <a id="Processing"></a>Processing (Beta)
 
-This section mainly relates to X-Ray Machine and Walk-Through Metal-Detector(WTMD) data:
+## Passenger Screening
+This section relates to Walk-Through Metal-Detector(WTMD) data:
 
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
@@ -29,6 +30,15 @@ This section mainly relates to X-Ray Machine and Walk-Through Metal-Detector(WTM
 | Security | zoneAlarm | int(20) | A digital representation of the alarming zones for the WTMD. a 0000000000000000000 would be no alarm, a 11111111111111111111 would be every zone alarmed. 5 digits per 4 zones in the following order: Head, Shoulders to Waist, Waist to Knees, Knees to Feet. 00000000001111100000 would typically be an alarm on a large, metallic belt. | 00000000000000001111 (Shoes alarmed) |
 | Security | alarm | Boolean | Was the passthrough and alarm | True, False |
 | Security | randomAlarm | Boolean | Whether the alarm was randomly generated | True, False |
+
+## Cabin Baggage Screening
+This section relates to X-Ray Machine data:
+
+| Dataset Name  | Field Name  | Data Type | Description | Examples |
+|:--------------|:------------|:----------|:------------|:---------|
+| Security | imageID | String | The unique identifier of the image that the X-Ray machine generates from the scanned bag | 12345678 |
+| Security | decision | String | The decision of the bag, clear or reject for search | clear, reject |
+| Security | TIP | Boolean | Threat Image Project. Did the image contain a projected threat | true, false |
 
 
 [Contents](./contents.md)<br />
