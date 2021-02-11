@@ -1,7 +1,7 @@
 # About the CIM
 
 Released: 30/01/2021
-Updated: TBC
+Updated: 09/02/2020
 
 CIM Version 1.0.0
 
