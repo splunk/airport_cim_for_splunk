@@ -1,4 +1,4 @@
-## Welcome to Splunk 4 Airports Common Information Model
+## Welcome to Airport Common Information Model for Splunk
 
 ![S4A](./images/logo.png)
 
