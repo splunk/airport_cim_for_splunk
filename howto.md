@@ -1,6 +1,6 @@
 # How to use the CIM
 
-The Splunk4Airports CIM has been compiled using multiple data sources in order to gain a uniformed approach to Airport data. You can see the data sources used in the [About](./About.md) page.
+The Airport CIM for Splunk has been compiled using multiple data sources in order to gain a uniformed approach to Airport data. You can see the data sources used in the [About](./About.md) page.
 
 ### How does it work
 
@@ -53,7 +53,7 @@ index="flights"
 | addinfo 
 | where (SOBT>info_min_time AND SOBT<info_max_time)
 ```
-You will see, the Splunk4Airports app expects _lastUpdated_ to be used as _time, and uses syntax like this:
+You will see, the Airport App for Splunk expects _lastUpdated_ to be used as _time, and uses syntax like this:
 ```
 stats latest(x), latest(y) by flightUid
 ```
@@ -61,7 +61,7 @@ This ensures you retrieve the latest value for fields X and Y, but in effect, it
 
 ## Lookups
 
-Various lookups are included in the Splunk4Airports App. The lookups are there to help enrich your data. For example, in your data you'll no doubt have an origin and destination airport. The _airports.csv_ lookup includes all international airports, so you can use the three letter IATA code for the airport, and it will output valuable information, including latitude and longitude. Thus allowing you to create visually stunning geo-maps. Lookups have been used from open source repositories. For a list of data sources, see the [about](./About.md) page. Due to its size, the Splunk4Airports app has a search included that inputs the airports.csv file into the KV store, allowing for faster retrieval.
+Various lookups are included in the Airport App for Splunk. The lookups are there to help enrich your data. For example, in your data you'll no doubt have an origin and destination airport. The _airports.csv_ lookup includes all international airports, so you can use the three letter IATA code for the airport, and it will output valuable information, including latitude and longitude. Thus allowing you to create visually stunning geo-maps. Lookups have been used from open source repositories. For a list of data sources, see the [about](./About.md) page. Due to its size, the Airport App for Splunk has a search included that inputs the airports.csv file into the KV store, allowing for faster retrieval.
 
 ## Baggage
 
