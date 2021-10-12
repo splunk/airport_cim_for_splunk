@@ -3,6 +3,7 @@
 The fields relating to aspects of passenger car parking accross the airport
 
 Events
+
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
 |ParkingEvents|eventTime|int(10)|Time the event was generated|0516469200|
@@ -14,6 +15,7 @@ Events
 |ParkingEvents|gateType|String|Type of gate device usage|entrance,exit,valet| 
 
 Faults
+
 | Dataset Name  | Field Name  | Data Type | Description | Examples |
 |:--------------|:------------|:----------|:------------|:---------|
 |ParkingFaults|eventTime|int(10)|Time the event was generated|0516469200|
