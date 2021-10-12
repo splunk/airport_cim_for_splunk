@@ -1,9 +1,9 @@
 # About the CIM
 
 Released: 30/01/2021
-Updated: 09/02/2020
+Updated: 12/10/2021
 
-CIM Version 1.0.0
+CIM Version 1.1.0
 
 The CIM is structured in a way that separates out airport function into their own, standalone datasets. An example would be that arriving and departing aircraft are similar datasets, so belong to the “Airfield”. Whereas processing passengers through security is not directly related, so those fields will belong to a dataset called “Security”
 
