@@ -30,6 +30,7 @@ This section relates to Walk-Through Metal-Detector(WTMD) data:
 | Security | zoneAlarm | int(20) | A digital representation of the alarming zones for the WTMD. a 0000000000000000000 would be no alarm, a 11111111111111111111 would be every zone alarmed. 5 digits per 4 zones in the following order: Head, Shoulders to Waist, Waist to Knees, Knees to Feet. 00000000001111100000 would typically be an alarm on a large, metallic belt. | 00000000000000001111 (Shoes alarmed) |
 | Security | alarm | Boolean | Was the passthrough an alarm | True, False |
 | Security | randomAlarm | Boolean | Whether the alarm was randomly generated | True, False |
+| Security | lastUpdated | int(10) | The time the record was last updated/created. This should be used as your _time field when indexing | 0516469200 |
 
 ## Cabin Baggage Screening
 This section relates to X-Ray Machine data:
@@ -39,6 +40,7 @@ This section relates to X-Ray Machine data:
 | Security | imageID | String | The unique identifier of the image that the X-Ray machine generates from the scanned bag | 12345678 |
 | Security | decision | String | The decision of the bag, clear or reject for search | clear, reject |
 | Security | TIP | Boolean | Threat Image Project. Did the image contain a projected threat | true, false |
+| Security | lastUpdated | int(10) | The time the record was last updated/created. This should be used as your _time field when indexing | 0516469200 |
 
 
 [Contents](./contents.md)<br />
