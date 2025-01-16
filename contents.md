@@ -10,6 +10,7 @@
   - [Aircraft](./Aircraft.md)
   - [Departures](./Departures.md)
   - [Arrivals](./Arrivals.md)
+  - [De Icing](./DeIcing.md)
 - Security
   - [Passengers](./Passengers.md)
   - [Processing](./Passengers.md#Processing)
