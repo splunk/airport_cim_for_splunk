@@ -2,8 +2,8 @@
 
 The fields relating to the De-Icing of departing aircraft
 
-|Dataset Name | Field Name | Data Type | Description|
-|:------------|:-----------|:----------|:-----------|
+| Dataset Name | Field Name | Data Type | Description |
+|:-------------|:-----------|:----------|:------------|
 |Training | firstName | string(15) | Example: Carrol|
 |Training | lastName | string(15) | Example: Tucker|
 |Training | employeeNum | String(15) | Example: 1859|
@@ -34,14 +34,14 @@ The fields relating to the De-Icing of departing aircraft
 |GroundOps | driver.firstName | String(15) | Brady|
 |GroundOps | driver.lastName | String(15) | Andrews|
 |GroundOps | driver.employeeNum | String(15) | 2651|
-|GroundOps | driver.trainingCerts | String() | Examples: Airside Driving, De-icing (United), CRJ, 737" or Cert #|
+|GroundOps | driver.trainingCerts | String() | Examples: Airside Driving, De-icing (United), CRJ, 737- or Cert #|
 |GroundOps | passenger.firstName | String(15) | Jeff|
 |GroundOps | passenger.lastName | String(15) | Gordon|
 |GroundOps | passenger.employeeNum | String(15) | 302|
 |GroundOps | passenger.trainingCerts | String(30) | Example: Airside Driving|
 |GroundOps | editedBy.employeeNum | String(15) | 9071|
 |GroundOps | flagged | Boolean | True,False|
-|Airfield | fleetType | String(12) | A319, CRJ, A320,737/800"|
+|Airfield | fleetType | String(12) | A319, CRJ, A320,737/800-|
 |Airfield | FQFC | String(10) | Flight Number, Example: US3154 (Not considered unique) see registration|
 |GroundOps | GHR.gallons | int(6) | Gallons (Ground Hose Reel)|
 |GroundOps | gearOnly | Boolean | True,False|
@@ -96,7 +96,7 @@ The fields relating to the De-Icing of departing aircraft
 |GroundOps | weatherCode | String(10) | Weather Code, Example: IF (Ice Fog)|
 |GroundOps | eventType | String(10) | Type of Service Performed. Examples: Refueling, Sanitation, Towing, Cargo Loading, De-icing, Anti-icing.|
 |Airfield | runway | String() | Runway Designation Example: 26L|
-|Airfield | taxiway | String() | Examples: C1, D3, F2, F, E, Q3, N4"|
+|Airfield | taxiway | String() | Examples: C1, D3, F2, F, E, Q3, N4|
 |Airfield | stand | String(50) | Examples: Cargo A, Cargo 1, 2, 3, 3, ANG Apron, South hanger, Ramp X|
 
 
