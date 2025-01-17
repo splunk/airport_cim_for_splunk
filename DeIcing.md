@@ -3,6 +3,7 @@
 The fields relating to the De-Icing of departing aircraft
 
 |Dataset Name | Field Name | Data Type | Description|
+|:------------|:-----------|:----------|:-----------|
 |Training | firstName | string(15) | Example: Carrol|
 |Training | lastName | string(15) | Example: Tucker|
 |Training | employeeNum | String(15) | Example: 1859|
