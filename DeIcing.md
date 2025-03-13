@@ -4,6 +4,17 @@ The fields relating to the De-Icing of departing aircraft
 
 | Dataset Name | Field Name | Data Type | Description |
 |:-------------|:-----------|:----------|:------------|
+Airfield | weatherDescription | String() | Example: Scattered Clouds
+Airfield | weatherTemperature | String(5) | Example: 53.34
+Airfield | weatherHumidity | String(5) | Example: 52
+Airfield | weatherPressure | String(5) | Example: 1023
+Airfield | weatherWind | String(5) | Example: 9.22
+Airfield | weatherDewpoint | String(5) | Example: 37.11
+Airfield | weatherVisability | String(6) | Example: 10000
+Airfield | weatherSunrise | int(10) | Epoch Time
+Airfield | weatherSunset | int(10) Epoch Time
+Airfield | weatherWindDegree | int(3) | Example: 30
+Airfield | weatherFeelslike | String(5) Example: 51.91
 |Training | firstName | string(15) | Example: Carrol|
 |Training | lastName | string(15) | Example: Tucker|
 |Training | employeeNum | String(15) | Example: 1859|
