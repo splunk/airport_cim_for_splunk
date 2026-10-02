@@ -22,6 +22,17 @@ The fields relating to departing aircraft
 |Airfield|ATOT|int(10)|Actual Take Off Time - Epoch|0516469200|
 |Airfield|CTOT|int(10)|Calculated Take Off Time - Epoch|0516469200|
 |Airfield|TTOT|int(10)|Target Take Off Time - Epoch|0516469200|
+|Airfield|ETOT|int(10)|Estimated Take Off Time - Epoch|0516469200|
+|Airfield|ACGT|int(10)|Actual Commence of Ground Handling Time - Epoch|0516469200|
+|Airfield|AEBT|int(10)|Actual End of Boarding Time - Epoch|0516469200|
+|Airfield|ASRT|int(10)|Actual Start Up Request Time - Epoch|0516469200|
+|Airfield|PBST|int(10)|Planned Boarding Start Time - Epoch|0516469200|
+|Airfield|PLCT|int(10)|Planned Last Call Time - Epoch|0516469200|
+|Airfield|ALCT|int(10)|Actual Last Call Time - Epoch|0516469200|
+|Airfield|AXOT|int|Actual Taxi Out Time - duration in seconds|900|
+|Airfield|EXOT|int|Estimated Taxi Out Time - duration in seconds|900|
+|Airfield|SID|String|Standard Instrument Departure|MAXIT1G, BPK7G|
+|Airfield|viaAirport|String(3)|IATA code for an intermediate airport on this departing leg, when the route has more than one port of call|NAS, DND|
 
 
 [Contents](./contents.md)<br />
