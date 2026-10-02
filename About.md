@@ -9,6 +9,8 @@ The CIM is structured in a way that separates out airport function into their ow
 
 It has been compiled from multiple data sources. With field naming closely aligning with Airport Collaborative Decision Making(A-CDM) conventions where possible.
 
+Version 1.3.0 extends the airfield datasets with aircraft identity, diversion and stand or gate attributes, and the additional A-CDM times and taxi durations.
+
 
 ### This CIM was compiled from various data-sources, listed below (Links take you to external websites):
 - Open Sources
@@ -23,6 +25,7 @@ It has been compiled from multiple data sources. With field naming closely align
 
 ### Special thanks to:
 - London Gatwick Airport
+- London Heathrow Airport
 - Amsterdam Schiphol Airport
 - Dubai International Airport
 - Avinor Norway
